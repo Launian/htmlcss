@@ -1,0 +1,62 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+h2{
+    font-weight: 500;
+}
+p{
+    font-weight: 300;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+}
+.columna{
+    background: rgb(218, 162, 162);
+    color: #333;
+    border: 1px solid #333;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 10px;
+    box-shadow: 10px 10px 9px orangered;
+    width: 22%;
+    box-sizing: border-box;
+}
+.btn-comprar{
+    background: rgb(165, 64, 27);
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.btn-comprar:hover{
+    background: rgb(117, 46, 21);
+}
+.btn-comprar:active{
+    background: rgb(61, 17, 6);
+}
+.text-center{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.precio{
+    font-size: 50px;
+    color: sienna;
+}
+@media (max-width: 950px){
+    .columna{
+        width: 45%;
+        margin-bottom: 25px;
+    }
+}
+@media (max-width: 600px){
+    .columna{
+        width: 100%;
+        margin-bottom: 25px;
+    }
+}
